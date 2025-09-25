@@ -1,13 +1,13 @@
 # Plex-Skip-Button-Instructions
 How to alter the settings for Plex's forward and backwards skip button
 
-Looking through Skuggomann's excellent work at `https://github.com/Skuggomann/Plex-Skip-Button-Patcher` I manually fixed my Plex Media Server. The downlod didn't match my Plex setup.
+Looking through Skuggomann's excellent work at `https://github.com/Skuggomann/Plex-Skip-Button-Patcher` I manually fixed my Plex Media Server. Their download didn't work because it couldn't find the files where they were expected
 
 To do this, there are two files needing editing. 
 
 -----------------------------------------------------------
 
-The first file is `main-`somethingsomethingsomething`.js`. There are a few edits to make. I used vim to search and replace, but Notepad, sed, awk etc should all work fine.
+The first file is `main-`somethingsomethingsomething`.js`. There are a few edits to make. I used vim to search and replace, but Notepad, sed, awk etc should all work fine. One of these was different that Skuggomann. The following edits will change forward skip to 10 seconds and keep backwards skip at 10 seconds.
 
 | Old Text                   | New Text                   |
 |----------------------------|----------------------------|
