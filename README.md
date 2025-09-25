@@ -34,4 +34,4 @@ This is needed because the new javascript file has a different checksum.
 
 -----------------------------------------------------------
 
-This fix only worked when I accessed my server directly, at `127.0.0.1`. When I used `app.plex.tv`, I had the regular skip and seek timings.
+This fix only worked when I accessed my server directly, at `127.0.0.1`. When I used `app.plex.tv`, I had the regular skip and seek timings. My FireTV and android phone were also not effected.
